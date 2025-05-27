@@ -116,7 +116,7 @@ button:active {
   flex-direction: column;
   justify-content: center;
   gap: 48px;
-  max-width: 1380px;
+  max-width: 1260px;
   margin: 100px auto;
 }
 
@@ -151,6 +151,7 @@ button:active {
 
 .blog-card {
   justify-content: space-between;
+  width: 100%;
   align-items: center;
   padding: 48px;
   background-color: #e6edf9;
@@ -260,7 +261,7 @@ button:active {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 32px 150px;
+  padding: 30px 150px;
   gap: 32px;
   background-color: #ffffff;
 }
@@ -290,16 +291,15 @@ button:active {
 
 @media (max-width: 1440px) {
   .home-page,
-  .blog-card,
+  .blog-page,
   .target-content {
-    width: 80%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 100px auto 0 auto;
   }
 }
 
 @media (max-width: 1440px) {
   .home-page {
-    width: 80%;
     margin: 100px auto 0 auto;
   }
 }
@@ -350,7 +350,7 @@ button:active {
 
 @media (max-width: 768px) {
   .home-page {
-    width: 80%;
+    width: 90%;
     box-shadow: 1px 1px 8px grey;
   }
   .home-contant-details h1 {
@@ -370,8 +370,11 @@ button:active {
   .blog-content-details p {
     text-align: center;
   }
+  .inspiration-heading {
+    padding: 10px 40px;
+  }
   .inspiration-content {
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
   }
   .inspiration-content iframe {
@@ -379,6 +382,7 @@ button:active {
     max-height: 400px;
   }
   .target-content {
+    margin: 20px auto;
     flex-direction: column;
     align-items: center;
   }
@@ -415,9 +419,9 @@ button:active {
     font-size: 25px;
   }
   .home-page,
-  .blog-card {
+  .blog-page {
     width: 90%;
-    margin: 50px auto 0 auto;
+    margin: 100px auto 0 auto;
   }
   .home-page {
     padding: 45px 15px;
