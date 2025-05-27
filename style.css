@@ -209,6 +209,7 @@ button:active {
 
 .target-content {
   display: flex;
+  justify-content: space-between;
   gap: 50px;
 }
 
@@ -336,6 +337,14 @@ button:active {
   }
   .footer-content {
     padding: 20px 90px;
+  }
+}
+
+@media (max-width: 880px) {
+  
+  .target-content {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -481,11 +490,5 @@ button:active {
   .footer-content {
     padding: 10px 0;
     gap: 10px;
-  }
-}
-
-@media (max-width: 468px) {
-  .inspiration-content iframe {
-    max-height: 220px;
   }
 }
